@@ -10,7 +10,7 @@ body {
 }
 
 form {
-  max-width: 30px;
+  max-width: 100%;
   margin: 10px auto;
   padding: 10px 0px;
   background: #f4f7f8;
@@ -366,7 +366,7 @@ top: -100px;}
 }
 
 
-@media (max-width:767px)
+@media (min-width:767px)
 {
   .social-icons li.title
   {
@@ -379,41 +379,84 @@ top: -100px;}
         margin-top: 0px;
         margin-bottom: 10px;
     }
-    .titulo{
-        margin-top: 10px
+  .titu{
+    color: white;
+    transform: translate;
+     margin-top: 10px;
+        margin-bottom: 10px
+      
+}.titu h1{
+    color: white;
+      
+}
+    .titu h1{
+        color: #28404c;
+       
+    }  .computador h3{
+        background-color: #28404c;
+        margin: 10;
+      
+        text-align: center;
+       
     }
-    .subtituloprincipal{
-    position: relative;
-top: -100px;}
-
+    .computador{
+   padding: 20px;
+        background-color: #28404c;
+            border-radius: 10px;
+     box-shadow: 2px 2px 10px #313131;
+margin: 0
+    }
+     .bloque{
+        display: flex;
+        flex-direction: row;
+    }
 
 }
 
 
 
 
-@media screen and (min-width: 480px) {
-
+@media screen and (max-width: 480px) {
+    .container{
+        padding: 0;
+    }
   form {
-    max-width: 480px;
+    max-width: 100%;
   }
     .titu h1{
         color: #28404c;
         margin-top: 100px;
         margin-bottom: 0;
-         transform: translate(0%, 100%);
+        padding: 0px 15px;
+         transform: translate(0%, 130%);
     }
     .titulo{
-        margin-top: 450px
+        margin-top: 670px
     }
     .computador h3{
         background-color: #28404c;
-        margin: 0;
+        margin: 10;
+        font-size: 0.9em;
+        
+       
     }
     .computador{
-        padding: 20px;  background-color: #28404c;
-                border-radius: 10px;
+        padding: 50px; 
+        background-color: #28404c;
+            border-radius: 10px;
      box-shadow: 2px 2px 10px #313131;
+margin: 0
+    }
+    .cta .section-title {
+    margin-bottom: 0px;
+}
+    .fondoo{
+        display: flex;
+        flex-direction: column-reverse
+    }
+    .subtituloprincipal{
+  margin: 20px;
+    padding: 0px 15px}
     }
 .button-primary {
     background: #3b8962;
@@ -431,25 +474,42 @@ top: -100px;}
     .subtituloprincipal{
     position: relative;
 top: 0px;}
-
+    form {
+    max-width:300px;
+    margin: 10px auto;
+    padding: 10px 0px;
+    background: rgb(244, 247, 248);
+    border-radius: 8px;
+}
+    fieldset{
+        width: 100%
+    }
+    .texte h2{
+        font-size: 18px
+    }
 }
 @media screen and (min-width:960px){
      .titu h1{
-        color: #ffffff;
-        margin-top: 100px;
-        margin-bottom: 0;
-          transform: translate(0%, -00%);
+       color: white
     }
     .titulo{
         margin-top: 0px
     }
+    .computador h3{
+        background-color: #28404c;
+        margin: 10;
+        font-size: 0.9em;
+       
+    }
     .computador{
-        display: flex;
-        padding: 20px;
-        background-color:  #28404c;
+        padding: 50px; 
+        background-color: #28404c;
+            border-radius: 10px;
+     box-shadow: 2px 2px 10px #313131;
+margin: 0
     }
     .subtituloprincipal{
     position: relative;
-top: -100px;}
+top: -;}
 
 }
